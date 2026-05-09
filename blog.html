@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - sushmitha d</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="javascript:void(0);" id="dark-mode-toggle">🌙 Dark Mode</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section style="text-align: center; margin-bottom: 2rem;">
+            <h2>Technical Articles & Insights</h2>
+            <p>Sharing my knowledge and experience in web development, design, and technology trends.</p>
+        </section>
+
+        <section id="blog-posts">
+            <!-- Blog Post 1 -->
+            <article class="blog-post">
+                <h2>🚀 Getting Started with React Hooks</h2>
+                <p class="date">Published on: January 15, 2024</p>
+                <p>React Hooks have revolutionized how we write functional components. In this comprehensive guide, I'll explore the fundamentals of hooks including useState, useEffect, and custom hooks. Learn how to manage state and side effects more effectively while writing cleaner, more reusable code.</p>
+                <p>Topics covered:</p>
+                <ul style="margin-left: 2rem;">
+                    <li>Understanding the Hooks API</li>
+                    <li>State Management with useState</li>
+                    <li>Side Effects with useEffect</li>
+                    <li>Building Custom Hooks</li>
+                    <li>Best Practices and Pitfalls</li>
+                </ul>
+                <a href="#full-article-1">Read Full Article →</a>
+            </article>
+
+            <!-- Blog Post 2 -->
+            <article class="blog-post">
+                <h2>🎨 Responsive Web Design Best Practices</h2>
+                <p class="date">Published on: December 28, 2023</p>
+                <p>Responsive design is no longer optional—it's essential. This article dives into the principles and techniques for creating websites that look great on all devices. Discover how to use CSS media queries, flexbox, and CSS Grid to build truly responsive layouts that provide an optimal viewing experience.</p>
+                <p>Key topics:</p>
+                <ul style="margin-left: 2rem;">
+                    <li>Mobile-First Approach</li>
+                    <li>CSS Media Queries</li>
+                    <li>Flexbox vs Grid</li>
+                    <li>Typography Scaling</li>
+                    <li>Testing & Optimization</li>
+                </ul>
+                <a href="#full-article-2">Read Full Article →</a>
+            </article>
+
+            <!-- Blog Post 3 -->
+            <article class="blog-post">
+                <h2>⚡ JavaScript Performance Optimization</h2>
+                <p class="date">Published on: December 15, 2023</p>
+                <p>Performance is critical for user experience. Learn practical techniques to optimize your JavaScript code, reduce bundle size, and improve load times. From minification and lazy loading to async/await patterns and Web Workers, this guide covers everything you need to know about JavaScript optimization.</p>
+                <p>Optimization strategies:</p>
+                <ul style="margin-left: 2rem;">
+                    <li>Code Minification & Bundling</li>
+                    <li>Lazy Loading & Code Splitting</li>
+                    <li>Caching Strategies</li>
+                    <li>Profiling & Debugging</li>
+                    <li>Web Performance APIs</li>
+                </ul>
+                <a href="#full-article-3">Read Full Article →</a>
+            </article>
+
+            <!-- Blog Post 4 -->
+            <article class="blog-post">
+                <h2>🛡️ Web Security Fundamentals</h2>
+                <p class="date">Published on: November 30, 2023</p>
+                <p>Security should be a top priority in web development. This article covers essential security concepts including authentication, authorization, HTTPS, and protection against common vulnerabilities. Learn how to build secure applications that protect user data and maintain trust.</p>
+                <p>Security topics:</p>
+                <ul style="margin-left: 2rem;">
+                    <li>Authentication & Authorization</li>
+                    <li>CORS & CSRF Protection</li>
+                    <li>Input Validation & Sanitization</li>
+                    <li>HTTPS & SSL/TLS</li>
+                    <li>Common Vulnerabilities (OWASP Top 10)</li>
+                </ul>
+                <a href="#full-article-4">Read Full Article →</a>
+            </article>
+
+            <!-- Blog Post 5 -->
+            <article class="blog-post">
+                <h2>🗄️ Database Design Patterns</h2>
+                <p class="date">Published on: November 10, 2023</p>
+                <p>Good database design is foundational to building scalable applications. Explore key design patterns, normalization principles, and optimization techniques. Whether you're working with SQL or NoSQL databases, understanding these patterns will help you design efficient data structures.</p>
+                <p>Database concepts:</p>
+                <ul style="margin-left: 2rem;">
+                    <li>Normalization & Denormalization</li>
+                    <li>Indexing Strategies</li>
+                    <li>Query Optimization</li>
+                    <li>SQL vs NoSQL Trade-offs</li>
+                    <li>Scaling Databases</li>
+                </ul>
+                <a href="#full-article-5">Read Full Article →</a>
+            </article>
+
+            <!-- Blog Post 6 -->
+            <article class="blog-post">
+                <h2>🐳 Introduction to Docker & Containerization</h2>
+                <p class="date">Published on: October 20, 2023</p>
+                <p>Docker has become essential for modern development workflows. Learn how to containerize applications, create Docker images, and manage containers. Discover how containerization improves development consistency, deployment reliability, and team collaboration.</p>
+                <p>Docker essentials:</p>
+                <ul style="margin-left: 2rem;">
+                    <li>Docker Basics & Architecture</li>
+                    <li>Creating Dockerfile</li>
+                    <li>Docker Compose</li>
+                    <li>Container Orchestration</li>
+                    <li>Best Practices</li>
+                </ul>
+                <a href="#full-article-6">Read Full Article →</a>
+            </article>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 1rem; border-radius: 8px; text-align: center; margin-top: 3rem;">
+            <h2 style="color: white; border: none;">Subscribe to My Newsletter</h2>
+            <p style="color: rgba(255,255,255,0.9);">Get updates on new articles, web development tips, and industry insights delivered to your inbox.</p>
+            <form style="margin-top: 1.5rem; display: flex; gap: 0.5rem; max-width: 400px; margin-left: auto; margin-right: auto;">
+                <input 
+                    type="email" 
+                    placeholder="your.email@example.com" 
+                    style="flex: 1; padding: 0.8rem; border: none; border-radius: 4px; font-size: 1rem;"
+                    required>
+                <button 
+                    type="submit" 
+                    style="padding: 0.8rem 1.5rem; background: white; color: #667eea; border: none; border-radius: 4px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                    Subscribe
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 sushmitha d. All rights reserved. | Sharing knowledge, building better web</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html></content>
+<parameter name="filePath">c:\Users\manoj\Documents\portfolio-website\blog.html
